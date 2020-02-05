@@ -1,0 +1,261 @@
+body{
+    font: arial, sans serif;
+    padding: 0;
+    margin: 0;
+    min-width: 831.2px;    
+
+}
+
+header{
+    background-color: rgb(44, 56, 56);
+    padding: 10px;
+    margin: 0;
+    border-bottom: orange solid 8px;
+    height: 100px;
+    /* min-width: 654.4px; */
+    color: #ffffff;
+
+}
+
+header #brand .container h1{
+    float: left;
+    padding: 10px; 
+    margin-right: 10px;
+    
+}
+
+#brand .container span{
+    color: orange;
+}
+
+nav{
+    float: right;
+    padding-top: 20px;
+}
+
+nav .container ul li{
+    padding: 20px;
+    list-style: none;
+    display: inline;
+}
+
+nav .container a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* Showcase styles */
+
+#showcase{
+    height: 400px;
+    text-align: center;
+    background: url("../images/pineapple.jpg");
+    padding: 10px;
+    color: #ffffff;
+    background-attachment: fixed;
+    
+}
+
+#showcase h1{
+    font-size: 50px;
+    padding-top: 80px;
+
+}
+
+#showcase p{
+    font-size: 20px;
+}
+
+
+/* email styling */
+
+#email{
+    background-color: rgb(44, 56, 56);
+    padding: 15px;
+    color: #ffffff;
+    height: 100px;
+
+}
+
+#email h1{
+    float: left;
+}
+
+#email form{
+    float: right;
+    padding-top: 30px;
+    margin-right: 30px;
+}
+
+#email form input{
+    width: 450px;
+    padding: 5px;
+    margin: 5px;
+    height: 23px;
+}
+
+#email form button{
+    border: none;
+    background-color: orange;
+    color: #ffffff;
+    padding: 5px;
+    width: 70px;
+}
+
+#email form button:hover{
+    border: gold solid 3px;
+    cursor: pointer;
+}
+
+/* Box Styles */
+
+#box{
+    padding: 15px;
+    margin: 15;
+}
+
+#box .container{
+    width: 250px;
+    margin: 100px;
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+}
+
+
+#box img{
+    width: 150px;
+    height: 150px;
+}
+
+/* Customers Styling */
+
+#customers{
+    background-color:rgb(44, 56, 56);
+    padding: 40px;
+    color: #ffffff;
+
+}
+
+#customers img{
+    width: 250px;
+    height: 250px;
+
+}
+
+#customers .customer{
+    border: orange solid 4px;
+    border-radius: 40px;
+    text-align: center;
+    width: 250px;
+    margin: 50px;
+    padding: 30px;
+    display: inline-block;
+
+}
+
+#customers h2{
+    text-align: center;
+    font-size: 40px;
+}
+
+
+/* Footer */
+
+footer{
+    background-color: orange;
+    padding: 30px;
+    margin: 10px;
+    height: 40px;
+    color: #ffffff;
+    text-align: center;
+    position: static;
+    
+
+
+}
+
+footer h3{
+    font-size: 20px;
+}
+
+
+
+/* About Page Styles */
+
+section#main{
+    padding: 10px;
+    margin: 10px;
+}
+
+.dark{
+    padding: 15px;
+    background-color: cadetblue;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+article.main-col{
+    float: left;
+    width: 65%;
+
+}
+
+aside#sidebar{
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+
+} 
+
+
+aside#sidebar-email{
+    float: right;
+    background-color: darkslategrey;
+    width: 20%;
+    height: 500px;
+    padding: 20px;
+    color: white;
+
+}
+
+
+
+aside#sidebar-email form label{
+    display: block;
+    line-height: 40px;
+
+}
+
+
+aside#sidebar-email form input{
+    width: 90%;
+    height: 30px;
+
+}
+
+
+aside#sidebar-email form button{
+    display: block;
+    margin: 10px;
+
+}
+
+aside#sidebar-email form .msg{
+    height: 10vh;
+}
+
+
+
+aside#sidebar-email form .side-button{
+    border: none;
+    padding: 20px;
+    background-color: orange;
+    border-radius: 9px;
+    margin-top: 40px;
+    margin-left: 90px;
+
+
+}
